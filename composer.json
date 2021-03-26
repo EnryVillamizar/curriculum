@@ -1,0 +1,14 @@
+{
+    "name": "wnclo/curriculum",
+    "description": "This is just my curriculum",
+    "type": "project",
+    "require": {
+        "laravel/laravel": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Enry Villamizar",
+            "email": "enryvillamizar@gmail.com"
+        }
+    ]
+}
