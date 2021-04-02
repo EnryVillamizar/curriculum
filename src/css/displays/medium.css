@@ -3,6 +3,18 @@ This is my phone's resolution
 */
 @media (min-width:600px) and (max-width: 1024px) {
     body{
-        background: green;
+        background: red;
+    }
+}
+
+@media (min-width:800px) and (max-width: 900px) {
+    body{
+        background: yellow;
+    }
+}
+
+@media (min-width:900px) and (max-width: 1024px) {
+    body{
+        background: grey;
     }
 }
