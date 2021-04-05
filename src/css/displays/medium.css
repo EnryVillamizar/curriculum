@@ -14,7 +14,7 @@ This is my phone's resolution
   }
   main table tr td div {
     margin: 15px 0px;
-    font-size: large;
+    font-size: 5em;
   }
   main table tr td a:hover {
     text-decoration: none;
@@ -23,7 +23,7 @@ This is my phone's resolution
     padding: 15px 0px;
     background-color: rgb(134, 134, 134, 0.3);
     transition: ease-out 0.5s;
-    font-size: x-large;
+    font-size: 6em;
   }
   main table tr td div img {
     width: 500px;
