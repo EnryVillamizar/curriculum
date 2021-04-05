@@ -24,6 +24,7 @@ This is my phone's resolution
     background-color: rgb(134, 134, 134, 0.3);
     transition: ease-out 0.5s;
     font-size: 6em;
+    box-shadow: 5px 8px 10px 0 #303030;
   }
   main table tr td div img {
     margin: 1.5em 0;
