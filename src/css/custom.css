@@ -1,8 +1,8 @@
-/*@import "./displays/small.css";
+@import "./displays/small.css";
 @import "./displays/medium.css";
 @import "./displays/large.css";
 @import "./displays/xlarge.css";
-@import "./displays/xxlarge.css";*/
+@import "./displays/xxlarge.css";
 
 html {
   width: 100%;
@@ -24,28 +24,4 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;
-}
-
-main table {
-  width: 100%;
-  height: 100%;
-}
-main table tr td div {
-  margin: 15px 0px;
-  font-size: large;
-}
-main table tr td a:hover {
-  text-decoration: none;
-}
-main table tr td .pages:hover {
-  padding: 15px 0px;
-  background-color: rgb(134, 134, 134, 0.3);
-  transition: ease-out 0.5s;
-  font-size: x-large;
-}
-main table tr td div img {
-  width: 200px;
-  height: 200px;
-  border-radius: 15px;
-  box-shadow: 5px 8px 10px 0 #303030;
 }

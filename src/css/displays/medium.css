@@ -26,8 +26,8 @@ This is my phone's resolution
     font-size: x-large;
   }
   main table tr td div img {
-    width: 50%;
-    height: 50%;
+    width: 500px;
+    height: 500px;
     border-radius: 15px;
     box-shadow: 5px 8px 10px 0 #303030;
   }
