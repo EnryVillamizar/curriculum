@@ -8,12 +8,6 @@ This is my phone's resolution
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
-  body {
-    background: white;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1024px) {
   main table {
     width: 100%;
     height: 100%;
@@ -36,5 +30,11 @@ This is my phone's resolution
     height: 200px;
     border-radius: 15px;
     box-shadow: 5px 8px 10px 0 #303030;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  body {
+    background: white;
   }
 }
