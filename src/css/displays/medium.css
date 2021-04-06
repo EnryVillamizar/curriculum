@@ -2,6 +2,9 @@
 This is my phone's resolution
 */
 @media (min-width: 600px) and (max-width: 800px) {
+  body {
+    background: red !important;
+  }
   main table {
     width: 100%;
   }
