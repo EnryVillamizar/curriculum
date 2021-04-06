@@ -1,4 +1,7 @@
 @media (min-width: 1024px) and (max-width: 1366px) {
+  body {
+    background-color: pink;
+  }
   main table {
     width: 100%;
   }
