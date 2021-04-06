@@ -2,9 +2,6 @@
 This is my phone's resolution
 */
 @media (min-width: 600px) and (max-width: 800px) {
-  body {
-    background-color: blue;
-  }
   main table {
     width: 100%;
   }
@@ -32,9 +29,6 @@ This is my phone's resolution
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
-  body {
-    background-color: green;
-  }
   main table {
     width: 100%;
   }
