@@ -2,9 +2,57 @@
 This is my phone's resolution
 */
 @media (min-width: 600px) and (max-width: 800px) {
+  main table {
+    width: 100%;
+  }
+  main table tr td div {
+    margin: 15px 0px;
+    font-size: 4em;
+  }
+  main table tr td a:hover {
+    text-decoration: none;
+  }
+  main table tr td .pages:hover {
+    padding: 15px 0px;
+    background-color: rgb(134, 134, 134, 0.3);
+    transition: ease-out 0.5s;
+    font-size: 6em;
+    box-shadow: 5px 8px 10px 0 #303030;
+  }
+  main table tr td div img {
+    margin: 1.5em 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 8px 10px 0 #303030;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
+  main table {
+    width: 100%;
+  }
+  main table tr td div {
+    margin: 15px 0px;
+    font-size: 4em;
+  }
+  main table tr td a:hover {
+    text-decoration: none;
+  }
+  main table tr td .pages:hover {
+    padding: 15px 0px;
+    background-color: rgb(134, 134, 134, 0.3);
+    transition: ease-out 0.5s;
+    font-size: 6em;
+    box-shadow: 5px 8px 10px 0 #303030;
+  }
+  main table tr td div img {
+    margin: 1.5em 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 8px 10px 0 #303030;
+  }
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
@@ -20,7 +68,7 @@ This is my phone's resolution
   }
   main table tr td .pages:hover {
     padding: 15px 0px;
-
+    background-color: rgb(134, 134, 134, 0.3);
     transition: ease-out 0.5s;
     font-size: 6em;
     box-shadow: 5px 8px 10px 0 #303030;
