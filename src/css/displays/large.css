@@ -1,7 +1,6 @@
 @media (min-width: 1024px) and (max-width: 1366px) {
   main table {
     width: 100%;
-    height: 100%;
   }
   main table tr td div {
     margin: 15px 0px;
