@@ -22,7 +22,6 @@ This is my phone's resolution
     padding: 2px 0px;
     width: 100% !important;
     margin: 15px 0px;
-    font-size: 1.8em;
     display: block;
   }
   main table tr td a:hover {
@@ -30,7 +29,6 @@ This is my phone's resolution
     padding: 1px 0px;
     background-color: rgb(134, 134, 134, 0.3);
     transition: ease-out 0.3s;
-    font-size: 1.9em;
     box-shadow: 0px 5px 15px 0 #303030;
   }
   main table tr td div img {
