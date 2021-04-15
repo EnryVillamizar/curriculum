@@ -46,7 +46,7 @@ This is my phone's resolution
   }
 }
 
-@media (min-width: 800px) and (max-width: 900px) {
+@media (min-width: 801px) and (max-width: 900px) {
   main table {
     width: 100%;
   }
@@ -73,7 +73,7 @@ This is my phone's resolution
   }
 }
 
-@media (min-width: 900px) and (max-width: 1024px) {
+@media (min-width: 901px) and (max-width: 1024px) {
   main table {
     width: 100%;
   }
