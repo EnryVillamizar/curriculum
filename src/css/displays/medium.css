@@ -2,24 +2,30 @@
 This is my phone's resolution
 */
 @media (min-width: 600px) and (max-width: 800px) and (min-device-width: 600px) and (max-device-width: 800px) {
-  body {
-    background: red !important;
+  @keyframes hoverimg {
+    from {
+      box-shadow: 0px 0px 10px 6px #303030;
+    }
+
+    to {
+      box-shadow: 0px 0px 10px 3px #303030;
+    }
   }
   main table {
     width: 100%;
   }
   main table tr td div {
     margin: 15px 0px;
-    font-size: 4em;
+    font-size: 3em;
   }
   main table tr td a:hover {
     text-decoration: none;
   }
   main table tr td .pages:hover {
-    padding: 15px 0px;
+    padding: 0px 0px;
     background-color: rgb(134, 134, 134, 0.3);
     transition: ease-out 0.5s;
-    font-size: 6em;
+    font-size: 3.55em;
     box-shadow: 5px 8px 10px 0 #303030;
   }
   main table tr td div img {
@@ -28,6 +34,12 @@ This is my phone's resolution
     height: 500px;
     border-radius: 15px;
     box-shadow: 5px 8px 10px 0 #303030;
+  }
+  main table tr td div img:hover {
+    animation-duration: 1s;
+    animation-name: hoverimg;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 }
 

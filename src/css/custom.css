@@ -3,7 +3,7 @@
 @import "./displays/large.css";
 @import "./displays/xlarge.css";
 @import "./displays/xxlarge.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 html {
   width: 100%;
   height: 100%;
@@ -13,7 +13,7 @@ body {
   height: 100%;
   background: url("../bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  font-family: "Brush Script MT", cursive;
+  font-family: "Lobster Two", cursive;
 }
 
 body::after {
