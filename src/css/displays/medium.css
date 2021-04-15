@@ -1,7 +1,7 @@
 /*
 This is my phone's resolution
 */
-@media (max-width: 600px) and (max-device-width: 600px) {
+@media (max-width: 600px), (max-device-width: 600px) {
   @keyframes hoverimg {
     from {
       box-shadow: 0px 0px 10px 6px #303030;
